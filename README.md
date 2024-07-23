@@ -1,9 +1,11 @@
 # Travel Planner
 
 ## Description
+
 Travel Planner is a web application that helps users plan their trips by providing weather information and nearby attractions for their chosen destinations. Users can search for a location, view current weather conditions, explore popular attractions, and create a personalized itinerary.
 
 ## Features
+
 - Search for destinations
 - Display current weather information
 - Show nearby attractions
@@ -11,6 +13,7 @@ Travel Planner is a web application that helps users plan their trips by providi
 - Persistent storage of itinerary using localStorage
 
 ## Technologies Used
+
 - HTML5
 - CSS3
 - JavaScript (ES6+)
@@ -18,6 +21,7 @@ Travel Planner is a web application that helps users plan their trips by providi
 - OpenTripMap API
 
 ## Setup and Installation
+
 1. Clone the repository or download the source code.
 2. Navigate to the project directory.
 3. Open `script.js` and replace the API key placeholders with your actual API keys:
@@ -26,10 +30,12 @@ Travel Planner is a web application that helps users plan their trips by providi
 4. Open `index.html` in a web browser.
 
 ## How to Get API Keys
+
 - OpenWeatherMap API: Sign up at [https://openweathermap.org/api](https://openweathermap.org/api)
 - OpenTripMap API: Sign up at [https://opentripmap.io/product](https://opentripmap.io/product)
 
 ## Usage
+
 1. Enter a destination in the search bar and click "Search" or press Enter.
 2. View the current weather information for the destination.
 3. Explore the list of nearby attractions.
@@ -40,22 +46,27 @@ Travel Planner is a web application that helps users plan their trips by providi
    - Remove attractions from your itinerary
 
 ## Project Structure
+
 - `index.html`: The main HTML file containing the structure of the web page.
 - `styles.css`: CSS file for styling the application.
 - `script.js`: JavaScript file containing the application logic and API interactions.
 
 ## Future Enhancements
+
 - Add map integration to visualize attractions
 - Implement user authentication for personalized experiences
 - Include more detailed weather forecasts
 - Add transportation and accommodation information
 
 ## Contributing
+
 Contributions, issues, and feature requests are welcome. Feel free to check [issues page](link-to-your-issues-page) if you want to contribute.
 
 ## License
+
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Acknowledgments
+
 - OpenWeatherMap for providing weather data
 - OpenTripMap for providing attraction information
