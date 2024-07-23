@@ -6,8 +6,8 @@ const attractionsContainer = document.getElementById('attractions-container');
 const itineraryContainer = document.getElementById('itinerary-container');
 
 // API Keys (replace with your own)
-const OPENWEATHERMAP_API_KEY = '242a7882f5089a4a538c61c4c9b45bb3';
-const OPENTRIPMAP_API_KEY = '5ae2e3f221c38a28845f05b6a214fe0bfef7d13a01d5efe94fc22781';
+const OPENWEATHERMAP_API_KEY = process.env.OPENWEATHERMAP_API_KEY;
+const OPENTRIPMAP_API_KEY = process.env.OPENTRIPMAP_API_KEY
 
 // Event Listeners
 searchForm.addEventListener('submit', handleSearch);
